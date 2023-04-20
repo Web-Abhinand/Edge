@@ -2,30 +2,30 @@
     display: flex;
     width: 100%;
     height:80vh;
+    background: linear-gradient(to right,rgba(0,0,0,1), rgba(0,0,0,0.4)), url(../Assets/diverse-businesspeople-having-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.about_main_div_flex1{
-    width: 60%;
-    height: 100%;
-}
-.about_main_div_flex1_textdiv{
+.aboutHeroText{
+    position: absolute;
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 5%;
     transform: translate(0%,-50%);
+    color: #fff;
     text-align: center;
     text-align: left;
     width: 50%;
 }
-.about_main_div_flex2{
-    width: 40%;
-    height: 100%;
-    position: relative;
+.aboutHeroText h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
 }
-.about_main_div_flex2 img{
-    position: absolute;
-    bottom: 0%;
+.aboutHeroText p{
+    font-family: 'Montserrat', sans-serif;
 }
-.aboutRegister{
+.AboutButton1{
     outline: 0;
     border: 0;
     margin: 0;
@@ -58,4 +58,54 @@
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
     margin-left: 0 !important;
     margin-right: 20px;
+}
+.AboutButton1:hover{
+    background-color: #894915;
+}
+.aboutOurInspiration{
+    width: 100%;
+    background-color:#D3D3D3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5vh;
+}
+.aboutOurInspirationHeading{
+    width: 100%;
+    text-align: center;
+}
+.aboutOurInspiration_flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+.aboutOurInspiration_flex_left{
+    width: 45%;
+    position: relative;
+}
+.aboutOurInspiration_flex_left img{
+    bottom: 0;
+    position: absolute;
+}
+.aboutOurInspiration_flex_right{
+    width: 50%;
+    
+}
+.aboutOurInspiration_flex_right p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.about_Amrita_VishwaVidyapeetham{
+    width: 100%;
+    background-color:#fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1px;
 }

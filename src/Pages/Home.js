@@ -33,14 +33,14 @@ const Home = () => {
                 </div>
             </div>
             <section className={styles.home_card_section}>
-                <h1 className='mb-10 py-2 text-4xl font-medium leading-tight text-primary' style={{color:'#BC631C',fontFamily:'Source Sans Pro'}}>PROGRAMS</h1>
+                <h1 className='mb-10 py-2 text-4xl font-medium leading-tight text-primary' style={{color:'#BC631C',fontFamily:'Source Sans Pro'}}>Our Programs</h1>
                 <div className={styles.home_card_section_flex}>
                     <div>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card >
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    style={{ height: '250px'}}
+                                    style={{ height: '350px'}}
                                     image={neet_crash}
                                     alt="green iguana"
                                 />
@@ -61,11 +61,11 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    style={{ height: '250px'}}
+                                    style={{ height: '350px'}}
                                     image={int_ment}
                                     alt="green iguana"
                                 />
@@ -86,11 +86,11 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    style={{ height: '245px'}}
+                                    style={{ height: '350px'}}
                                     image={sci_found}
                                     alt="green iguana"
                                 />
@@ -111,11 +111,11 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    style={{ height: '295px'}}
+                                    style={{ height: '350px'}}
                                     image={test_prepr}
                                     alt="green iguana"
                                 />
@@ -136,11 +136,11 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    style={{ height: '250px'}}
+                                    style={{ height: '350px'}}
                                     image={neet2023}
                                     alt="green iguana"
                                 />
