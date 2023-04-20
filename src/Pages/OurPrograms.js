@@ -5,7 +5,7 @@ const OurPrograms = () => {
   return (
     <>
         <Header />
-        <div>Our Programs</div>
+            <div>Our Programs</div>
     </>
   )
 }
