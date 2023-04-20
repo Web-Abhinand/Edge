@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
         <Header />
-        <div form className='contact__form'>
+        <div form className='contact__form' style={{marginTop :"10vh"}}>
           <div className='gif'>
             <img src={call} alt='gif' />
           </div>
