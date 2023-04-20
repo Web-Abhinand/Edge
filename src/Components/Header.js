@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div style={{width:'100%',border:'1px solid red'}}>
+    <div style={{width:'100%'}}>
         {/* <Link to="/" style={{marginLeft:'5px',marginRight:'5px'}}>Home</Link> */}
         <Link to="/about" style={{marginLeft:'5px',marginRight:'5px'}}>About</Link>
         <Link to="/contact" style={{marginLeft:'5px',marginRight:'5px'}}>Contact</Link>
